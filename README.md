@@ -53,3 +53,15 @@ Key unit tests have been performed to ensure that each component of the applicat
 - Tests for proper writing of output CSV files.
 
 All tests help in validating the integrity of data processing and error handling within the application.
+
+## Complexity Analysis
+
+### Time Complexity
+
+- **Reading Files**: The time complexity of reading each file is proportional to the number of lines in the file (O(N)).
+- **Processing Logs**: Processing each log entry involves dictionary lookups, which are generally quick (O(1) on average), leading to an overall time complexity of O(M) for M log entries.
+
+### Space Complexity
+
+- **Data Storage**: The primary use of memory is for dictionaries storing protocol mappings, tags, and counts. This scales with the number of unique port/protocol combinations and tags.
+- **Outputs**: The output files size increases with the number of unique combinations and tags processed.
