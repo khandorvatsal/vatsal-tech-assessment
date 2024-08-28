@@ -1,0 +1,4 @@
+2024-08-28 09:31:13,788 - INFO - File input_data/protocol_numbers.csv has been cleaned and converted to ASCII.
+2024-08-28 09:31:13,788 - INFO - File input_data/lookup_table.csv has been cleaned and converted to ASCII.
+2024-08-28 09:31:13,788 - INFO - File input_data/flow_logs.txt has been cleaned and converted to ASCII.
+2024-08-28 09:31:13,802 - INFO - Processing complete. Output files generated.
