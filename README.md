@@ -17,7 +17,7 @@ This Python application parses network flow logs (AWS VPC) and a lookup table to
 This script was developed using Python 3.8.
 
 ## Usage
-To run the script, navigate to the script's directory and execute:
+Create a folder named `output_data` in the scripts directory if it doesn't exist and then execute:
 ```
 python main.py
 ```
@@ -28,7 +28,7 @@ python test_processor.py
 ```
 
 ## Outputs
-The application generates an app.log file and two CSV files in the `output_data` directory which is currently empty:
+The application generates an app.log file and two CSV files in the `output_data` directory:
 - **`tag_counts.csv`**: Counts of each tag found in the logs.
 - **`port_protocol_counts.csv`**: Counts of each port/protocol combination found in the logs.
 
